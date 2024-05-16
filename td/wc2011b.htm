@@ -1,0 +1,285 @@
+<html>
+
+<!-- Mirrored from wk2011.kndb.nl/td/wc2011b.htm by HTTrack Website Copier/3.x [XR&CO'2010], Sun, 16 Jun 2013 21:55:32 GMT -->
+<head>
+<title>
+
+</title>
+<meta name="generator" content="Turbo Dambase">
+<meta name="author" content="Klaas Bor">
+<meta name="keywords" content="dammen, draughts, Turbo Dambase">
+<meta name="description" content="">
+<link rel="stylesheet" type="text/css" href="html/tdam50css.css">
+<script language="JavaScript" src="wc2011data.js"></script>
+<script language="JavaScript" src="html/tdam50jsb.js"></script>
+</head>
+<body onLoad=" InitImages('html/index.html'); InitGames();" class="bodyboard">
+<h3 class="boardtitle">
+Analysis Gerrit Boom
+</h3>
+<table align="center" border="1">
+<tr>
+<td>
+<img src="html/w.gif"><img src="html/bm.gif"><img src="html/w.gif"><img src="html/bm.gif"><img src="html/w.gif"><img src="html/bm.gif"><img src="html/w.gif"><img src="html/bm.gif"><img src="html/w.gif"><img src="html/bm.gif"><br><img src="html/bm.gif"><img src="html/w.gif"><img src="html/bm.gif"><img src="html/w.gif"><img src="html/bm.gif"><img src="html/w.gif"><img src="html/bm.gif"><img src="html/w.gif"><img src="html/bm.gif"><img src="html/w.gif"><br><img src="html/w.gif"><img src="html/bm.gif"><img src="html/w.gif"><img src="html/bm.gif"><img src="html/w.gif"><img src="html/bm.gif"><img src="html/w.gif"><img src="html/bm.gif"><img src="html/w.gif"><img src="html/bm.gif"><br><img src="html/bm.gif"><img src="html/w.gif"><img src="html/bm.gif"><img src="html/w.gif"><img src="html/bm.gif"><img src="html/w.gif"><img src="html/bm.gif"><img src="html/w.gif"><img src="html/bm.gif"><img src="html/w.gif"><br><img src="html/w.gif"><img src="html/b.gif"><img src="html/w.gif"><img src="html/b.gif"><img src="html/w.gif"><img src="html/b.gif"><img src="html/w.gif"><img src="html/b.gif"><img src="html/w.gif"><img src="html/b.gif"><br><img src="html/b.gif"><img src="html/w.gif"><img src="html/b.gif"><img src="html/w.gif"><img src="html/b.gif"><img src="html/w.gif"><img src="html/b.gif"><img src="html/w.gif"><img src="html/b.gif"><img src="html/w.gif"><br><img src="html/w.gif"><img src="html/wm.gif"><img src="html/w.gif"><img src="html/wm.gif"><img src="html/w.gif"><img src="html/wm.gif"><img src="html/w.gif"><img src="html/wm.gif"><img src="html/w.gif"><img src="html/wm.gif"><br><img src="html/wm.gif"><img src="html/w.gif"><img src="html/wm.gif"><img src="html/w.gif"><img src="html/wm.gif"><img src="html/w.gif"><img src="html/wm.gif"><img src="html/w.gif"><img src="html/wm.gif"><img src="html/w.gif"><br><img src="html/w.gif"><img src="html/wm.gif"><img src="html/w.gif"><img src="html/wm.gif"><img src="html/w.gif"><img src="html/wm.gif"><img src="html/w.gif"><img src="html/wm.gif"><img src="html/w.gif"><img src="html/wm.gif"><br><img src="html/wm.gif"><img src="html/w.gif"><img src="html/wm.gif"><img src="html/w.gif"><img src="html/wm.gif"><img src="html/w.gif"><img src="html/wm.gif"><img src="html/w.gif"><img src="html/wm.gif"><img src="html/w.gif"></td>
+</tr>
+</table>
+<form>
+<table align="center" border="0">
+<tr>
+<td align="center">
+<input type="button" value=" |&lt " title="Go to begin position" onCLick="GoToStart(-1);"> 
+</td>
+<td align="center">
+<input type="button" value=" &lt;&lt " title="Play 5 moves backwards" onCLick="GoFastBackward(-1);"> 
+</td>
+<td align="center">
+<input type="button" value=" &lt " title="Play backwards" onCLick="GoBackward(-1);"> 
+</td>
+<td align="center">
+<input type="button" value=" &gt " title="Play forwards" onCLick="GoForward(-1);"> 
+</td>
+<td align="center">
+<input type="button" value=" &gt;&gt " title="Play 5 moves forwards" onCLick="GoFastForward(-1);"> 
+</td>
+<td align="center">
+<input type="button" value=" &gt| " title="Go to end position" onCLick="GoToEnd(-1);">
+</td>
+<td align="center">
+<input type="button" value=" / " title="Flip board" onCLick="FlipBoard(-1);">
+</td>
+<td align="center">
+<input type="button" value=" * " title="Start or stop auto play" onCLick="AutoPlay(-1);">
+</td>
+</tr>
+</table>
+</form>
+<form>
+<table align="center" border="0">
+<tr>
+<td align="center">
+<input type="text" name="zet" value=" ZET " title="Last move played">
+</td>
+</tr>
+</table>
+</form>
+<form>
+<table align="center" border="0">
+<tr>
+<td>
+<select name="games" id="games" size="1" style="width: 350px" onChange="javascript:SelectGame()">
+<option>
+Chizhov,Alexei - Schwarzman,Alexander
+</option>
+
+<option>
+Mogilianski,Alexander - Artykow,Alisher
+</option>
+
+<option>
+Amrillaew,Mourodoullo - Georgiev,Alexander
+</option>
+
+<option>
+Silva,Allan - Dul,Erdenebileg
+</option>
+
+<option>
+van der Wijk,Wiebe - Boomstra,Roel
+</option>
+
+<option>
+Meurs,Pim - Gantvarg,Anatoli
+</option>
+
+<option>
+Getmanski,Alexander - Mogilianski,Alexander
+</option>
+
+<option>
+Boomstra,Roel - Valneris,Guntis
+</option>
+
+<option>
+Schwarzman,Alexander - Artykow,Alisher
+</option>
+
+<option>
+Mogilianski,Alexander - Georgiev,Alexander
+</option>
+
+<option>
+Virny,Vadim - Silva,Allan
+</option>
+
+<option>
+Valneris,Guntis - Buzinskij,Edvard
+</option>
+
+<option>
+Seck,Mor - Gantvarg,Anatoli
+</option>
+
+<option>
+Silva,Allan - Mogilianski,Alexander
+</option>
+
+<option>
+Dul,Erdenebileg - Artykow,Alisher
+</option>
+
+<option>
+van der Wijk,Wiebe - Seck,Mor
+</option>
+
+<option>
+Boomstra,Roel - Buzinskij,Edvard
+</option>
+
+<option>
+Alexander Georgiev - Alexei Chizhov
+</option>
+
+<option>
+Artykow,Alisher - Getmanski,Alexander
+</option>
+
+<option>
+Chizhov,Alexei - Silva,Allan
+</option>
+
+<option>
+Mogilianski,Alexander - Amrillaew,Mourodoullo
+</option>
+
+<option>
+Ndjofang,Jean-Marc - van der Wijk,Wiebe
+</option>
+
+<option>
+Baliakin,Alexander - Boomstra,Roel
+</option>
+
+<option>
+Schwarzman,Alexander - Georgiev,Alexander
+</option>
+
+<option>
+Amrillaew,Mourodoullo - Chizhov,Alexei
+</option>
+
+<option>
+Silva,Allan - Schwarzman,Alexander
+</option>
+
+<option>
+Baliakin,Alexander - Seck,Mor
+</option>
+
+<option>
+van der Wijk,Wiebe - Valneris,Guntis
+</option>
+
+<option>
+Gantvarg,Anatoli - Buzinskij,Edvard
+</option>
+
+<option>
+Georgiev,Alexander - Artykow,Alisher
+</option>
+
+<option>
+Ndjofang,Jean-Marc - Baliakin,Alexander
+</option>
+
+<option>
+Mogilianski,Alexander - Dul,Erdenebileg
+</option>
+
+<option>
+Mogilianski,Alexander - Chizhov,Alexei
+</option>
+
+<option>
+Amrillaew,Mourodoullo - Artykow,Alisher
+</option>
+
+<option>
+Silva,Allan - Getmanski,Alexander
+</option>
+
+<option>
+Dul,Erdenebileg - Georgiev,Alexander
+</option>
+
+<option>
+Seck,Mor - Ndjofang,Jean-Marc
+</option>
+
+<option>
+Georgiev,Alexander - Silva,Allan
+</option>
+
+<option>
+Artykow,Alisher - Virny,Vadim
+</option>
+
+<option>
+Gantvarg,Anatoli - van der Wijk,Wiebe
+</option>
+
+<option>
+Buzinskij,Edvard - Baliakin,Alexander
+</option>
+
+<option>
+Valneris,Guntis - Seck,Mor
+</option>
+
+<option>
+Boomstra,Roel - Dul,Erdenebileg
+</option>
+
+<option>
+Gantvarg,Anatoli - Georgiev,Alexander
+</option>
+
+<option>
+Buzinskij,Edvard - Artykow,Alisher
+</option>
+
+<option>
+Seck,Mor - Mogilianski,Alexander
+</option>
+
+<option>
+van der Wijk,Wiebe - Silva,Allan
+</option>
+
+<option>
+Boomstra,Roel - Getmanski,Alexander
+</option>
+
+<option>
+Ndjofang,Jean-Marc - Virny,Vadim
+</option>
+
+<option>
+Baliakin,Alexander - Silva,Allan
+</option>
+
+</select>
+</td>
+</tr>
+</table>
+</form>
+<p><br></p>
+<p align="right">
+<font size="0">
+Generated with
+<a target="_blank" href="http://www.turbodambase.com/">Turbo Dambase 5.0</a>
+</font>
+</p>
+</body>
+
+<!-- Mirrored from wk2011.kndb.nl/td/wc2011b.htm by HTTrack Website Copier/3.x [XR&CO'2010], Sun, 16 Jun 2013 21:56:27 GMT -->
+</html>

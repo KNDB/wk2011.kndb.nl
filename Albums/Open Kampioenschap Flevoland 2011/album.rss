@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0"
+     xmlns:media="http://search.yahoo.com/mrss/"
+     xmlns:jalbum="http://jalbum.net/jalbumrss">
+    <channel>
+        <title>Open Kampioenschap Flevoland 2011</title>
+   	<link>.</link>
+        <generator>jAlbum 9</generator>
+   		<description></description>
+        <item>
+            <title>IMG_1</title>
+            <link>slides/IMG_1.html#</link>
+            <pubDate>Mon, 23 May 2011 19:14:36 +0200</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="thumbs/IMG_1.JPG" width="240" height="159"/>
+            <media:content type="image/jpeg" url="slides/IMG_1.JPG" width="800" height="533"/>
+            <jalbum:original url="IMG_1.JPG" width="5184" height="3456" fileSize="6845782"/>
+            <jalbum:exif originalDate="21-5-11 9:25" cameraMake="Canon" cameraModel="Canon EOS 7D"/>
+            <guid isPermaLink="false">slides/IMG_1.JPG</guid>
+        </item>
+        <item>
+            <title>IMG_2</title>
+            <link>slides/IMG_2.html#</link>
+            <pubDate>Mon, 23 May 2011 19:14:36 +0200</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="thumbs/IMG_2.JPG" width="240" height="159"/>
+            <media:content type="image/jpeg" url="slides/IMG_2.JPG" width="800" height="533"/>
+            <jalbum:original url="IMG_2.JPG" width="5184" height="3456" fileSize="6833695"/>
+            <jalbum:exif originalDate="21-5-11 9:26" cameraMake="Canon" cameraModel="Canon EOS 7D"/>
+            <guid isPermaLink="false">slides/IMG_2.JPG</guid>
+        </item>
+        <item>
+            <title>IMG_3</title>
+            <link>slides/IMG_3.html#</link>
+            <pubDate>Mon, 23 May 2011 19:14:36 +0200</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="thumbs/IMG_3.JPG" width="240" height="159"/>
+            <media:content type="image/jpeg" url="slides/IMG_3.JPG" width="800" height="533"/>
+            <jalbum:original url="IMG_3.JPG" width="5184" height="3456" fileSize="6858239"/>
+            <jalbum:exif originalDate="21-5-11 9:26" cameraMake="Canon" cameraModel="Canon EOS 7D"/>
+            <guid isPermaLink="false">slides/IMG_3.JPG</guid>
+        </item>
+        <item>
+            <title>IMG_3168 kopie</title>
+            <link>slides/IMG_3168 kopie.html#</link>
+            <pubDate>Mon, 23 May 2011 19:14:36 +0200</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="thumbs/IMG_3168 kopie.jpg" width="240" height="180"/>
+            <media:content type="image/jpeg" url="slides/IMG_3168 kopie.jpg" width="640" height="480"/>
+            <jalbum:original url="IMG_3168 kopie.jpg" width="640" height="480" fileSize="502278"/>
+            <jalbum:exif originalDate="21-5-11 14:25" cameraMake="Canon" cameraModel="Canon PowerShot A630"/>
+            <guid isPermaLink="false">slides/IMG_3168 kopie.jpg</guid>
+        </item>
+        <item>
+            <title>IMG_3170 kopie</title>
+            <link>slides/IMG_3170 kopie.html#</link>
+            <pubDate>Mon, 23 May 2011 19:14:36 +0200</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="thumbs/IMG_3170 kopie.jpg" width="240" height="180"/>
+            <media:content type="image/jpeg" url="slides/IMG_3170 kopie.jpg" width="640" height="480"/>
+            <jalbum:original url="IMG_3170 kopie.jpg" width="640" height="480" fileSize="491578"/>
+            <jalbum:exif originalDate="21-5-11 14:26" cameraMake="Canon" cameraModel="Canon PowerShot A630"/>
+            <guid isPermaLink="false">slides/IMG_3170 kopie.jpg</guid>
+        </item>
+        <item>
+            <title>IMG_3180 kopie</title>
+            <link>slides/IMG_3180 kopie.html#</link>
+            <pubDate>Mon, 23 May 2011 19:14:36 +0200</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="thumbs/IMG_3180 kopie.jpg" width="240" height="180"/>
+            <media:content type="image/jpeg" url="slides/IMG_3180 kopie.jpg" width="640" height="480"/>
+            <jalbum:original url="IMG_3180 kopie.jpg" width="640" height="480" fileSize="529763"/>
+            <jalbum:exif originalDate="21-5-11 14:28" cameraMake="Canon" cameraModel="Canon PowerShot A630"/>
+            <guid isPermaLink="false">slides/IMG_3180 kopie.jpg</guid>
+        </item>
+        <item>
+            <title>IMG_3182 kopie</title>
+            <link>slides/IMG_3182 kopie.html#</link>
+            <pubDate>Mon, 23 May 2011 19:14:36 +0200</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="thumbs/IMG_3182 kopie.jpg" width="240" height="180"/>
+            <media:content type="image/jpeg" url="slides/IMG_3182 kopie.jpg" width="640" height="480"/>
+            <jalbum:original url="IMG_3182 kopie.jpg" width="640" height="480" fileSize="507673"/>
+            <jalbum:exif originalDate="21-5-11 14:29" cameraMake="Canon" cameraModel="Canon PowerShot A630"/>
+            <guid isPermaLink="false">slides/IMG_3182 kopie.jpg</guid>
+        </item>
+        <item>
+            <title>IMG_3184 kopie</title>
+            <link>slides/IMG_3184 kopie.html#</link>
+            <pubDate>Mon, 23 May 2011 19:14:36 +0200</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="thumbs/IMG_3184 kopie.jpg" width="240" height="180"/>
+            <media:content type="image/jpeg" url="slides/IMG_3184 kopie.jpg" width="640" height="480"/>
+            <jalbum:original url="IMG_3184 kopie.jpg" width="640" height="480" fileSize="492412"/>
+            <jalbum:exif originalDate="21-5-11 14:29" cameraMake="Canon" cameraModel="Canon PowerShot A630"/>
+            <guid isPermaLink="false">slides/IMG_3184 kopie.jpg</guid>
+        </item>
+    </channel>
+</rss>

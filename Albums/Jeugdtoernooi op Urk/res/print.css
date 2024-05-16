@@ -1,0 +1,215 @@
+/* Classic Aligned 2 skin for Jalbum */
+/* Printer-friendly style sheet
+*/
+
+body {
+  font-family: Tahoma, Verdana, Arial, sans-serif;
+  font-size: 13px;
+  background-color: #FFFFFF;
+  color: #000000;
+}
+h1,h2,h3,h4,h5,h6,h7 {
+  text-align: center;
+}
+.slideTitle {
+  color: #000000;
+  text-align: center;
+}
+div.imageBox {
+  margin-left: auto;
+  margin-right: auto;  
+  text-align: center;
+}
+div.slideIptcBox {
+  text-align: left;
+  margin-top: 2em;
+  margin-bottom: 1em;
+}
+div.slideExifBox {
+  text-align: left;
+  margin-top: 2em;
+  margin-bottom: 1em;
+}
+div.indexTopControls {
+  display: none;
+}
+div.indexBottomControls {
+  display: none;
+}
+div.indexTable {
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+div.indexCaption {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 252px;
+}
+div.folderCaption {
+  margin-top: 0px;
+  margin-bottom: 10px;
+  margin-left: auto;
+  margin-right: auto;
+}
+div.slideTopControls {
+  display: none;
+}
+div.copyrightIndexFooter {
+  margin-top: 1em;
+  margin-bottom: 1em;
+  line-height: 120%;
+  font-family: Tahoma, Verdana, Arial, sans-serif;
+  font-size: 10px;
+  text-align: center;
+}
+div.copyrightSlideFooter {
+  margin-top: 1em;
+  margin-bottom: 1em;
+  line-height: 120%;
+  font-family: Tahoma, Verdana, Arial, sans-serif;
+  font-size: 10px;
+}
+div.slideFreeText {
+  line-height: 120%;
+  font-family: Tahoma, Verdana, Arial, sans-serif;
+  font-size: 10px;
+  text-align: center;
+}
+div.indexFreeText {
+  line-height: 120%;
+  font-family: Tahoma, Verdana, Arial, sans-serif;
+  font-size: 10px;
+  text-align: center;
+}
+div.slideBreadCrumbs {
+  display: none;
+}
+div.thumbBreadCrumbs {
+  display: none;
+}
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+p.margin10 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: auto;
+  margin-right: auto;
+}
+p.thumbCaption {
+  margin-bottom: 3px;
+  margin-left: auto;
+  margin-right: auto;
+}
+td {
+  text-align: center;
+  vertical-align: bottom;
+  font-family: Tahoma, Verdana, Arial, sans-serif;
+}
+td.indexThumbnail {
+  vertical-align: bottom;
+  width: 262px;
+
+}
+td.indexRingbook {
+  vertical-align: middle;
+  text-indent: 22px;
+  background-image: url(ringbook.gif);
+  border-color: #000000;
+  border-width: 1px;
+  border-style: solid;
+}
+td.indexCaption {
+  vertical-align: top;
+  font-family: Tahoma, Verdana, Arial, sans-serif;
+  font-size: 10px;
+  width: 262px;
+}
+td.indexMain {
+  vertical-align: top;
+  font-size: 16px;
+}
+td.metaBox {
+  text-align: left;
+  vertical-align: top;
+  font-size: 9px;
+  padding-left: 2px;
+  padding-right: 2px;
+}
+span.title {
+  color: #000000;
+}
+span.copyright {
+  font-family: Tahoma, Verdana, Arial, sans-serif;
+  font-size: 10px;
+}
+img.slide {
+  border-color: #000000;
+  border-width: 1px;
+  border-style: solid;
+}
+img.preload {
+  display: none;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 0px;
+  height: 0px;
+}
+img.thumbnail {
+  border-color: #000000;
+  border-width: 1px;
+  border-style: solid;
+  margin-top: 20px;
+}
+img.thumbnailIcon {
+  border: none;
+  margin-top: 20px;
+
+}
+img.folder {
+  vertical-align: middle;
+  border: none;
+}
+img.navButton {
+  display: none;
+}
+.slideInfo {
+  position: relative;
+  z-index: 2;
+  width: 770px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+.indexComment {
+  color: #000000;
+}
+a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #020202;
+}
+a.breadCrumbs {
+  text-decoration: none;
+  font-weight: normal;
+  color: #020202;
+}
+a.hyperlink {
+  text-decoration: none;
+  font-weight: bold;
+  color: #020202;
+}
+a:hover {
+  text-decoration: underline;
+}
+a.breadCrumbs:hover {
+  text-decoration: underline;
+  color: #020202;
+}
+a:active {
+  outline: none;
+}

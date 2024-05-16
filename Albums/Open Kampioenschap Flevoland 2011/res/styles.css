@@ -1,0 +1,329 @@
+/* Classic Aligned 2 skin for Jalbum */
+/*
+skinVersion=2.8.0
+bodyBgColor=#eeeeee
+bodyColor=#202020
+spanTitleColor=#000000
+slideTitleColor=#000000
+slideBorderColor=#000000
+thumbBorderColor=#000000
+indexCommentColor=#000000
+aColor=#020202
+aHyperlinkColor=#020202
+slideShColor=#7f7f7f
+thumbShColor=#7f7f7f
+fontFamily=Tahoma, Verdana, Arial, sans-serif
+fontSizeBody=13
+fontSizeSlideBreadCrumbs=10
+fontSizeThumbBreadCrumbs=10
+fontSizeSlideCaption=13
+fontSizeIndexCaption=10
+fontSizeMetaBox=9
+fontSizeCopyrightSlideFooter=10
+fontSizeCopyrightIndexFooter=10
+fontSizeSlideFreeText=10
+fontSizeIndexFreeText=10
+slideTitleAlign=center
+slideInfoAlign=center
+*/
+
+body {
+  font-family: Tahoma, Verdana, Arial, sans-serif;
+  font-size: 13px;
+  background-color: #eeeeee;
+  color: #202020;
+}
+h1,h2,h3,h4,h5,h6,h7 {
+  text-align: center;
+}
+.slideTitle {
+  position: relative;
+  width: 800px;
+  margin-left: 1px;
+  text-align: center;
+  color: #000000;
+}
+div {
+  overflow: visible;
+  margin: 0;
+}
+div.container1 {
+  z-index: 2;
+  position: relative;
+  width: 802px;
+  margin-left: auto;
+  margin-right: auto;  
+}
+div.container2 {
+  z-index: 1;
+  position: relative;
+  width: 802px;
+  margin-left: auto;
+  margin-right: auto;  
+}
+div.imageBox {
+  z-index: 1;
+  position: absolute;
+  width: 802px;
+  margin-left: auto;
+  margin-right: auto;  
+  text-align: center;
+}
+div.slideIptcBox {
+  z-index: 2;
+  width: 220px;
+  text-align: left;
+  position: absolute;
+  top: 0px;
+  margin-bottom: 20px;
+}
+div.slideExifBox {
+  z-index: 2;
+  width: 220px;
+  text-align: left;
+  position: absolute;
+  top: 0px;
+  margin-bottom: 20px;
+}
+div.logo{
+  margin-left: auto;
+  margin-right: auto;
+  width: 764px;
+  position: relative;
+}
+div.logoLeft{
+  position: absolute;
+  left: 0px;
+}
+div.logoRight{
+  position: absolute;
+  right: 0px;
+  text-align: right;
+}
+div.indexTopControls {
+  margin-top: 10px;  
+  margin-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;  
+  text-align: center;
+}
+div.indexBottomControls {
+  margin-left: auto;
+  margin-right: auto;  
+  text-align: center;
+}
+div.indexTable {
+  margin-top: 0px;  
+  margin-bottom: 15px;
+}
+div.indexRootTable {
+  margin-top: 0px;  
+  margin-bottom: 15px;
+}
+div.indexCaption {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 252px;
+}
+div.folderCaption {
+  margin-top: 0px;
+  margin-bottom: 10px;
+  margin-left: auto;
+  margin-right: auto;
+}
+div.slideTopControls {
+  position: relative;
+  width: 800px;
+  margin-top: 0px;  
+  margin-bottom: 15px;
+  margin-left: 1px;
+  text-align: center;
+}
+div.slideImage {
+  position: relative;
+  z-index: 1;
+  margin-top: 0px;  
+  margin-bottom: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+div.slideImageIcon {
+  position: relative;
+  z-index: 1;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: auto;
+  margin-right: auto;
+}
+div.copyrightIndexFooter {
+  margin-top: 15px;  
+  margin-bottom: 10px;
+  line-height: 120%;
+  font-family: Tahoma, Verdana, Arial, sans-serif;
+  font-size: 10px;
+  text-align: center;
+}
+div.copyrightIndexRootFooter {
+  margin-top: 15px;  
+  margin-bottom: 10px;
+  line-height: 120%;
+  font-family: Tahoma, Verdana, Arial, sans-serif;
+  font-size: 10px;
+  text-align: center;
+}
+div.copyrightSlideFooter {
+  position: relative;
+  z-index: 2;
+  margin-top: 10px;
+  margin-bottom: 10px;  
+  line-height: 120%;
+  font-family: Tahoma, Verdana, Arial, sans-serif;
+  font-size: 10px;
+}
+div.slideFreeText {
+  line-height: 120%;
+  font-family: Tahoma, Verdana, Arial, sans-serif;
+  font-size: 10px;
+  text-align: center;
+}
+div.indexFreeText {
+  line-height: 120%;
+  font-family: Tahoma, Verdana, Arial, sans-serif;
+  font-size: 10px;
+  text-align: center;
+}
+div.slideBreadCrumbs {
+  margin-bottom: 15px;
+  width: 800px;
+  margin-left: 1px;
+  font-family: Tahoma, Verdana, Arial, sans-serif;
+  font-size: 10px;
+  text-align: center;
+}
+div.thumbBreadCrumbs {
+  margin-bottom: 15px;
+  font-family: Tahoma, Verdana, Arial, sans-serif;
+  font-size: 10px;
+  text-align: center;
+}
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+p.margin10 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: auto;
+  margin-right: auto;
+}
+p.thumbCaption {
+  margin-bottom: 3px;
+  margin-left: auto;
+  margin-right: auto;
+}
+p.w3cRight {
+  position: relative;
+  right: -5px;
+}
+td {
+  text-align: center;
+  vertical-align: bottom;
+  font-family: Tahoma, Verdana, Arial, sans-serif;
+}
+td.indexThumbnail {
+  vertical-align: bottom;
+  width: 262px;
+}
+td.indexRingbook {
+  vertical-align: middle;
+  text-indent: 22px;
+  background-image: url(ringbook.gif);}
+td.indexCaption {
+  vertical-align: top;
+  font-family: Tahoma, Verdana, Arial, sans-serif;
+  font-size: 10px;
+  width: 262px;
+}
+td.metaBox {
+  text-align: left;
+  vertical-align: top;
+  font-size: 9px;
+  padding-left: 2px;
+  padding-right: 2px;
+}
+span.title {
+  color: #000000;
+  font-size: 13px;
+}
+span.copyright {
+  font-family: Tahoma, Verdana, Arial, sans-serif;
+  font-size: 10px;
+}
+img.slide {
+  border-color: #000000;
+  border-width: 1px;
+  border-style: solid;
+}
+img.preload {
+  display: none;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 0px;
+  height: 0px;
+}
+img.thumbnail {
+  border-color: #000000;
+  border-width: 1px;
+  border-style: solid;
+  margin-top: 20px;
+}
+img.thumbnailIcon {
+  border: none;
+  margin-top: 20px;
+}
+img.folder {
+  vertical-align: middle;
+  border: none;
+}
+img.navButton {
+  border: none;
+}
+.slideInfo {
+  position: relative;
+  z-index: 2;
+  width: 770px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+.indexComment {
+  color: #000000;
+}
+a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #020202;
+}
+a.breadCrumbs {
+  text-decoration: none;
+  font-weight: normal;
+  color: #020202;
+}
+a.hyperlink {
+  text-decoration: none;
+  font-weight: bold;
+  color: #020202;
+}
+a:hover {
+  text-decoration: underline;
+}
+a.breadCrumbs:hover {
+  text-decoration: underline;
+  color: #020202;
+}
+a:active {
+  outline: none;
+}
